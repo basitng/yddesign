@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YD-Design</title>
+    <link
+      rel="stylesheet"
+      href="asset/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script src="js/gsap.js" defer></script>
+    <script src="js/ScrollTrigger.js" defer></script>
+    <!-- <script src="js/jquery-3.6.0.min.js" defer></script> -->
+    <script src="js/App.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="">YD-Design</a>
+      </div>
+      <!-- end logo -->
+      <ul class="middle-ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <!--end middle ul-->
+      <div class="nav-action">
+        <button class="btn1"><a href="#contact">Contact me</a></button>
+      </div>
+      <div class="menu">
+        <i class="fas fa-list"></i>
+      </div>
+    </nav>
+
+    <ul class="sidebar">
+      <div class="fade-in">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <svg
+          class="close"
+          width="109"
+          height="109"
+          viewBox="0 0 109 109"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="99.3113"
+            width="13.7021"
+            height="140.447"
+            rx="6.85107"
+            transform="rotate(45 99.3113 0)"
+            fill="#C4C4C4"
+          />
+          <rect
+            y="9.68889"
+            width="13.7021"
+            height="140.447"
+            rx="6.85107"
+            transform="rotate(-45 0 9.68889)"
+            fill="#C4C4C4"
+          />
+        </svg>
+      </div>
+    </ul>
+
+    <div class="banner">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="caption">
+            <h1 class="caption-h1">
+              I am Lateef a Graphic Designer
+              <span class="color-base">from Lagos</span>
+            </h1>
+            <h4>
+              I am a creative graphics designer with the aim to deliver quality
+              product
+            </h4>
+            <!-- end h1 -->
+            <div class="caption-btn">
+              <button class="btn trigger">
+                Hire me <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--end col -->
+        <div class="col-md-6">
+          <img src="svg/man.svg" />
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row -->
+      <div class="banner-footer">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="modal">
+      <div class="header">
+        <h2 class="modal-h1">Hire Me</h2>
+        <p>Am ever ready to offer you the best of it services.</p>
+      </div>
+      <form>
+        <div class="input-field">
+          <input type="text" placeholder="Username" />
+        </div>
+        <div class="input-field">
+          <input type="email" placeholder="Email address" />
+        </div>
+        <div class="input-field">
+          <input type="tel" placeholder="Phone number" />
+        </div>
+        <div class="input-field">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    <!--end banner-->
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="header">
+            <h1 class="header-h1">About Us</h1>
+            <h4 class="header-h4">I am a creative designer</h4>
+          </div>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum illo
+            ut sequi maiores facilis itaque? Quam maxime numquam ipsa inventore.
+            Nisi, pariatur molestiae eaque saepe provident ex voluptate
+            asperiores esse quisquam deleniti cupiditate dolorum ducimus
+            corrupti atque explicabo excepturi quas ad beatae vero? Consequatur
+            alias labore obcaecati pariatur ipsum exercitationem?
+          </p>
+          <button><a href="#services">scroll Down</a></button>
+        </div>
+        <!-- end col -->
+        <div class="col-md-6">
+          <img src="svg/frame1.svg" />
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row-->
+    </div>
+    <!-- end container-->
+
+    <div class="container" id="services">
+      <div class="header">
+        <h1 class="header-h1">My Services</h1>
+        <h4 class="header-h4">I offer my wards the best of it services.</h4>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="asset/images/bg2.jpg" />
+            </div>
+            <div class="card-body">
+              <h1>Logo Design</h1>
+              <p class="legend">
+                I design highly professional looking logos through creativity
+                and perfecting tooling
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end col -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="asset/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg" />
+            </div>
+            <div class="card-body">
+              <h1>Flyers & Banners Design.</h1>
+              <p class="legend">
+                I design quality banners & flyers that match the modern day
+                trends and desires.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end col -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="asset/images/krisztian-tabori-IyaNci0CyRk-unsplash.jpg"
+              />
+            </div>
+            <div class="card-body">
+              <h1>Magazines & Booklet Design.</h1>
+              <p class="legend">
+                I design high quality Magazines & Booklet of kinds and types no
+                wonder am code YD-Design.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row-->
+    </div>
+    <!-- end container-->
+    <div class="container" id="projects">
+      <div class="header">
+        <h1 class="header-h1">My Awesome Projects</h1>
+        <h4>View all my projects</h4>
+      </div>
+      <div class="row">
+        <div class="img">
+          <img src="asset/images/krisztian-tabori-IyaNci0CyRk-unsplash.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/nikita-kachanovsky-g-YiX8ynmnY-unsplash.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/bg1.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/bg2.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/jason-leung-wHddViTmSvA-unsplash.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/nikita-kachanovsky-g-YiX8ynmnY-unsplash.jpg" />
+        </div>
+        <div class="img">
+          <img src="asset/images/krisztian-tabori-IyaNci0CyRk-unsplash.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="header">
+          <h1 class="header-h1">Get In Touch</h1>
+          <h4>Am always available for it service delivery</h4>
+        </div>
+        <form>
+          <input type="text" placeholder="Fullname" />
+          <input type="tel" placeholder="Your phone number" />
+          <textarea cols="5" rows="5" placeholder="Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <main>
+        <p>All right reversed to basitng &copy;Copyright 2021</p>
+      </main>
+    </footer>
+  </body>
+</html>
